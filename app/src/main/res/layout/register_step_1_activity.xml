@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="60dp"
+    android:background="@color/white">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/btnReturnToMain"
+        android:gravity="center"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="-10dp">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/return_btn"
+            android:background="@color/white" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_text"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_marginTop="32dp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/input_border_layout"
+        android:hint="@string/mail_example"
+        android:id="@+id/etMailRegisterPage"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:layout_marginTop="32dp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/input_border_layout"
+        android:hint="password"
+        android:id="@+id/etPasswordRegisterPage"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:layout_marginTop="16dp" />
+    
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:id="@+id/btnNext"
+        android:background="@drawable/black_button_layout"
+        android:text="@string/next_button"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:layout_marginTop="16dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/tvErrorText"
+        android:textSize="15sp"
+        android:textColor="@color/red"
+        android:layout_marginTop="40dp"/>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

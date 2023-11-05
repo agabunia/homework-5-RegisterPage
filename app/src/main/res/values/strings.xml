@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Homework-5-RegisterPage</string>
+    <string name="log_in_button">LOG IN</string>
+    <string name="register_button">REGISTER</string>
+    <string name="register_text">Register</string>
+    <string name="mail_example">jane@example.com</string>
+    <string name="next_button">NEXT</string>
+    <string name="log_in_text">Log in</string>
+    <string name="username_example">the_jane</string>
+    <string name="sign_up_button">SIGN UP</string>
+    <string name="agreement_text">By signing up, you agree to Photo’s <u>Terms of Service</u> and <u>Privacy Policy.</u></string>
+</resources>
